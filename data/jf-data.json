@@ -1,0 +1,408 @@
+[
+    {
+        "episode": "Pilot",
+        "episode_num": 0,
+        "date": "October 11, 2019",
+        "restaurant": "Little Caesars",
+        "food": "Quattro Pizza",
+        "score":
+            {
+                "jordan": 63,
+                "michael": 94,
+                "combined": 78.5
+            },
+        "emoji": "🍕",
+        "link": "https://roosterteeth.com/watch/achievement-hunter-2019-face-jam-pilot"
+    },
+    {
+        "episode": "1",
+        "episode_num": 1,
+        "date": "November 12, 2019 ",
+        "restaurant": "Popeyes",
+        "food": "Chicken Sandwich",
+        "score":
+            {
+                "jordan": 57,
+                "michael": 42,
+                "combined": 49.5
+            },
+        "emoji": "🍗",
+        "link": "https://roosterteeth.com/watch/face-jam-2019-1"
+    },
+    {
+        "episode": "2",
+        "episode_num": 2,
+        "date": "November 26, 2019",
+        "restaurant": "Applebee's",
+        "food": "25 Cent Wings & $1 Vodka Cranberry Lemonade",
+        "score":
+            {
+                "jordan": 50,
+                "michael": 98,
+                "combined": 74
+            },
+        "emoji": "🍗",
+        "link":  "https://roosterteeth.com/watch/face-jam-2019-2"
+    },
+    {
+        "episode": "3",
+        "episode_num": 3,
+        "date": "December 10, 2019",
+        "restaurant": "KFC",
+        "food": "Nashville Hot Chicken & Waffles",
+        "score":
+            {
+                "jordan": 84,
+                "michael": 80,
+                "combined": 82
+            },
+        "emoji": "🧇",
+        "link": "https://roosterteeth.com/watch/face-jam-2019-3"
+    },
+    {
+        "episode": "4",
+        "episode_num": 4,
+        "date": "December 24, 2019 ",
+        "restaurant": "IHOP",
+        "food": "Elf on the Shelf Menu",
+        "score":
+            {
+                "jordan": 66,
+                "michael": 60,
+                "combined": 63
+            },
+        "emoji": "🥞",
+        "link":  "https://roosterteeth.com/watch/face-jam-2019-4"
+    },
+    {
+        "episode": "5",
+        "episode_num": 5,
+        "date": "January 7, 2020",
+        "restaurant": "McDonald's",
+        "food": "Bacon Burger & Snickerdoodle McFlurry",
+        "score":
+            {
+                "jordan": 48,
+                "michael": 99.58,
+                "combined": 73.79
+            },
+        "emoji": "🍔",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-5"
+    },
+    {
+        "episode": "6",
+        "episode_num": 6,
+        "date": "January 21, 2020",
+        "restaurant": "Arby's",
+        "food": "Fish 'N Cheddar Sandwich & Mint Chocolate Shake",
+        "score":
+            {
+                "jordan": 17,
+                "michael": 39,
+                "combined": 28
+            },
+        "emoji": "🐟",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-1-21"
+    },
+    {
+        "episode": "7",
+        "episode_num": 7,
+        "date": "February 4, 2020",
+        "restaurant": "Jack in the Box",
+        "food": "Tiny Tacos & Loaded Tiny Tacos",
+        "score":
+            {
+                "jordan": 45,
+                "michael": 85.3,
+                "combined": 65.15
+            },
+        "emoji": "🌮",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-2-4"
+    },
+    {
+        "episode": "8",
+        "episode_num": 8,
+        "date": "February 18, 2020",
+        "restaurant": "Papa John's",
+        "food": "Papadias",
+        "score":
+            {
+                "jordan": 38,
+                "michael": 45,
+                "combined": 41.5
+            },
+        "emoji": "🍕",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-2-18"
+    },
+    {
+        "episode": "9",
+        "episode_num": 9,
+        "date": "March 3, 2020",
+        "restaurant": "Taco Bell",
+        "food": "Buffalo Chicken Nacho Fries & Buffalo Chicken Nacho Fries Burrito",
+        "score":
+            {
+                "jordan": 38,
+                "michael": 45,
+                "combined": 41.5
+            },
+        "emoji": "🌯",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-3-3"
+    },
+    {
+        "episode": "10",
+        "episode_num": 10,
+        "date": "March 17, 2020",
+        "restaurant": "Sonic Burger",
+        "food": "Double Stack Cheeseburger & Reese's Overload Blast",
+        "score":
+            {
+                "jordan": 62,
+                "michael": 95,
+                "combined": 78.5
+            },
+        "emoji": "🍔",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-3-17"
+    },
+    {
+        "episode": "11",
+        "episode_num": 11,
+        "date": "March 31, 2020",
+        "restaurant": "Pizza Hut",
+        "food": "Big Dipper & Mozzarella Popper Pizzas",
+        "score":
+            {
+                "jordan": 10,
+                "michael": 25,
+                "combined": 17.5
+            },
+        "emoji": "🍕",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-3-31"
+    },
+    {
+        "episode": "12",
+        "episode_num": 12,
+        "date": "April 14, 2020",
+        "restaurant": "Whataburger",
+        "food": "BBQ Bacon Burger & Dr Pepper Shake",
+        "score":
+            {
+                "jordan": 63,
+                "michael": 85,
+                "combined": 74
+            },
+        "emoji": "🍔",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-4-14"
+    },
+    {
+        "episode": "13",
+        "episode_num": 13,
+        "date": "April 28, 2020",
+        "restaurant": "Steak 'n Shake",
+        "food": "Pork Belly Steakburger & Cotton Candy Shake",
+        "score":
+            {
+                "jordan": 53,
+                "michael": 97,
+                "combined": 75
+            },
+        "emoji": "🍔",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-4-28"
+    },
+    {
+        "episode": "14",
+        "episode_num": 14,
+        "date": "May 12, 2020",
+        "restaurant": "Wienerschnitzel",
+        "food": "World of Wieners",
+        "score":
+            {
+                "jordan": 43,
+                "michael": 45,
+                "combined": 44
+            },
+        "emoji": "🌭",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-5-12"
+    },
+    {
+        "episode": "15",
+        "episode_num": 15,
+        "date": "May 26, 2020",
+        "restaurant": "Burger King",
+        "food": "Spicy Nuggets",
+        "score":
+            {
+                "jordan": 70,
+                "michael": 82,
+                "combined": 76
+            },
+        "emoji": "🍗",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-5-26"
+    },
+    {
+        "episode": "16",
+        "episode_num": 16,
+        "date": "June 9, 2020",
+        "restaurant": "TGI Fridays",
+        "food": "Loaded Cheese Fry Burger",
+        "score":
+            {
+                "jordan": 33,
+                "michael": 55,
+                "combined": 44
+            },
+        "emoji": "🍔",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-6-9"
+    },
+    {
+        "episode": "17",
+        "episode_num": 17,
+        "date": "June 23, 2020",
+        "restaurant": "P Terry's",
+        "food": "Crispy Chicken Burger & Peach Cobbler Shake",
+        "score":
+            {
+                "jordan": 93,
+                "michael": 85,
+                "combined": 89
+            },
+        "emoji": "🍔",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-6-23"
+    },
+    {
+        "episode": "18",
+        "episode_num": 18,
+        "date": "July 7, 2020 ",
+        "restaurant": "Carl's Jr",
+        "food": "Spicy Western Bacon Cheeseburger & Angus Thickburger",
+        "score":
+            {
+                "jordan": 55,
+                "michael": 65,
+                "combined": 60
+            },
+        "emoji": "🍔",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-7-7"
+    },
+    {
+        "episode": "19",
+        "episode_num": 19,
+        "date": "July 21, 2020",
+        "restaurant": "Olive Garden",
+        "food": "Amazing Alfredos",
+        "score":
+            {
+                "jordan": 33,
+                "michael": 77,
+                "combined": 57.5
+            } ,
+        "emoji": "🍝",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-7-21"
+    },
+    {
+        "episode": "20",
+        "episode_num": 20,
+        "date": "August 04, 2020",
+        "restaurant": "Subway",
+        "food": "BBQ Rib Sandwich",
+        "score":
+            {
+                "jordan": 8,
+                "michael": 20,
+                "combined": 14
+            },
+        "emoji": "🥪",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-7-4"
+
+    },
+    {
+        "episode": "21",
+        "episode_num": 21,
+        "date": "August 18, 2020",
+        "restaurant": "Quiznos",
+        "food": "Cubano Sandwich",
+        "score":
+            {
+                "jordan": 50,
+                "michael": 45,
+                "combined": 47.5
+            },
+        "emoji": "🥪",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-8-18"
+    },
+    {
+        "episode": "22",
+        "episode_num": 22,
+        "date": "September 1, 2020",
+        "restaurant": "Panda Express",
+        "food": "Honey Sesame Chicken",
+        "score":
+            {
+                "jordan": 44,
+                "michael": 65,
+                "combined": 54.5
+            },
+        "emoji": "🥡",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-9-1"
+    },
+    {
+        "episode": "23",
+        "episode_num": 23,
+        "date": "September 15, 2020",
+        "restaurant": "Domino's",
+        "food": "Chicken Taco Pizza & Cheeseburger Pizza",
+        "score":
+            {
+                "jordan": 31,
+                "michael": 15,
+                "combined": 23
+            },
+        "emoji": "🍕",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-9-15"
+    },
+    {
+        "episode": "24",
+        "episode_num": 24,
+        "date": "September 29, 2020",
+        "restaurant": "Wendy's",
+        "food": "Pretzel Bacon Pub Cheeseburger & Chicken Sandwich",
+        "score":
+            {
+                "jordan": 0,
+                "michael": 0,
+                "combined": 0
+            },
+        "emoji": "🍔",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-9-15"
+    },
+    {
+        "episode": "25",
+        "episode_num": 25,
+        "date": "October 13, 2019",
+        "restaurant": "Fazoli's",
+        "food": "Parmesan-Crusted Alfredo with Meatballs",
+        "score":
+            {
+                "jordan": 0,
+                "michael": 0,
+                "combined": 0
+            },
+        "emoji": "🍝",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-10-13" 
+    },
+    {
+        "episode": "26",
+        "episode_num": 26,
+        "date": "October 27, 2020",
+        "restaurant": "Dog Haus",
+        "food": "Oktoberwurst",
+        "score":
+            {
+                "jordan": 95,
+                "michael": 95.1,
+                "combined": 95.05
+            },
+        "emoji": "🌭",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-10-27"
+    }
+]
