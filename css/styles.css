@@ -32,3 +32,8 @@ svg.main {
 .jordan {
     fill: #ffdf00;
 }
+
+.chart-text {
+    text-anchor: end;
+    font-family: 'Barlow', sans-serif;
+}

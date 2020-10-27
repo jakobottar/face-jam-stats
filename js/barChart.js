@@ -7,7 +7,7 @@ class BarChart {
         this.mainChart;
 
         this.xScale;
-        this.barScale;
+        this.yScale;
     }
 
     setData(data){ this.data = data; }
@@ -36,7 +36,7 @@ class BarChart {
         let dom = new Array()
         this.data.forEach(e => { dom.push(e.episode_num) });
 
-        this.barScale = d3.scaleOrdinal()
+        this.yScale = d3.scaleOrdinal()
             .domain(dom)
             .range(Array.apply(undefined, Array(this.data.length)).map((d, i) => i*35))
 
@@ -53,7 +53,7 @@ class BarChart {
 
         bars.transition()
             .duration(200)
-            .attr("y", d => this.barScale(d.episode_num))
+            .attr("y", d => this.yScale(d.episode_num))
             .attr("width", d => this.xScale(d.score.combined))
     }
 
@@ -64,17 +64,43 @@ class BarChart {
         let dom = new Array()
         sortedData.forEach(e => { dom.push(e.episode_num) });
 
-        this.barScale.domain(dom)
+        this.yScale.domain(dom)
 
         let bars = d3.select("#bars")
             .selectAll("rect")
             .join("rect")
             .transition()
             .duration(200)
-            .attr("y", d => this.barScale(d.episode_num))
+            .attr("y", d => this.yScale(d.episode_num))
+
+        let text = d3.select("#text")
+            .selectAll("text")
+            .join("text")
+            .transition()
+            .duration(200)
+            .attr("y", d => this.yScale(d.episode_num) + 20)
     }
 
     addText(){
-        // TODO:
+        this.mainChart
+            .append("g")
+            .attr("id", "text")
+            .attr("transform", `translate(${this.size.padding}, ${this.size.padding})`)
+
+        function isFlipped(data){
+            let str = `${data.restaurant} ${data.food} ${data.emoji}`
+        }
+
+        let text = d3.select("#text")
+            .selectAll("text")
+            .data(this.data)
+            .join("text")
+            .classed("chart-text", true)
+            .transition()
+            .duration(200)
+            .attr("x", d => this.xScale(d.score.combined) - 5)
+            .attr("y", d => this.yScale(d.episode_num) + 20)
+            .text(d => d.emoji)
+
     }
 }
