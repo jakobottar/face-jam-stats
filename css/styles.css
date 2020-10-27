@@ -23,17 +23,53 @@ svg.main {
     margin-right: auto;
 }
 
+circle {
+    pointer-events: none;
+}
+
+text.michael {
+    fill:  rgba(242, 39, 39);
+    stroke-width: 0px;
+    font-weight: bold;
+    text-anchor: middle;
+}
+text.jordan {
+    fill: rgb(39, 76, 242);
+    stroke-width: 0px;
+    font-weight: bold;
+    text-anchor: middle;
+}
+
 .combined {
     fill: #ff8717;
 }
 .michael {
-    fill: #f22727;
+    fill: rgba(242, 39, 39, 0.33);
+    stroke: rgba(242, 39, 39);
+    stroke-width: 2px;
 }
 .jordan {
-    fill: #ffdf00;
+    fill: rgb(39, 76, 242, 0.33);
+    stroke: rgb(39, 76, 242);
+    stroke-width: 2px;
 }
+
+
 
 .chart-text {
     text-anchor: end;
     font-family: 'Barlow', sans-serif;
+}
+
+.tooltip {
+    position: absolute;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+text {
+    fill: white;
+    pointer-events: none;
 }

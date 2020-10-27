@@ -14,7 +14,14 @@
 			<!-- <h1>Face Jam Statistics</h1> -->
 			<input type="checkbox" id='descending' onchange="barchart.updateChart()" autocomplete="off">Descending</input>
 		</div>
-		<div id = "chart-wrapper"></div>
+		<div id = "chart-wrapper">
+			<svg class = "main"></svg>
+			<div class="tooltip hidden">
+				<h1>Episode</h1> 
+				<h2>Restaurant & Food</h2>
+				<h3>Scores</h3>
+			</div>
+		</div>
 		<script src="js/barChart.js"></script>
 		<script src="js/script.js"></script>
 	</body>
