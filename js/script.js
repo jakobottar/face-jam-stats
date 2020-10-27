@@ -7,4 +7,3 @@ async function loadData() {
 let barchart = new BarChart();
 
 loadData()
-
