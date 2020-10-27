@@ -24,6 +24,7 @@ class BarChart {
         this.mainChart
             .append("g")
             .attr("id", "bars")
+            .attr("transform", `translate(${this.size.padding}, ${this.size.padding})`)
 
         let xScale = d3.scaleLinear()
             .domain([0,100])
@@ -36,9 +37,15 @@ class BarChart {
             .classed("combined", true)
 
         bars.attr("height", 30)
+            .attr("x", 0)
+            .attr("y", (d,i) => i*35)
+            .attr("rx", 5)
+            .attr("ry", 5)
+
+        bars.transition()
+            .duration(200)
+            .attr()
             .attr("width", d => xScale(d.score.combined))
-            .attr("x", this.size.padding)
-            .attr("y", (d,i) => i*35 + this.size.padding)
     }
 
     addText(){

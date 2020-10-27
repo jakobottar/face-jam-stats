@@ -368,12 +368,12 @@
         "food": "Pretzel Bacon Pub Cheeseburger & Chicken Sandwich",
         "score":
             {
-                "jordan": 0,
-                "michael": 0,
-                "combined": 0
+                "jordan": 63,
+                "michael": 94,
+                "combined": 78.5
             },
         "emoji": "🍔",
-        "link": "https://roosterteeth.com/watch/face-jam-2020-9-15"
+        "link": "https://roosterteeth.com/watch/face-jam-2020-9-29"
     },
     {
         "episode": "25",
@@ -383,9 +383,9 @@
         "food": "Parmesan-Crusted Alfredo with Meatballs",
         "score":
             {
-                "jordan": 0,
-                "michael": 0,
-                "combined": 0
+                "jordan": 34,
+                "michael": 48,
+                "combined": 41
             },
         "emoji": "🍝",
         "link": "https://roosterteeth.com/watch/face-jam-2020-10-13" 

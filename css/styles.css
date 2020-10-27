@@ -16,26 +16,19 @@ body {
 }
 
 svg.main {
-    width: 75%;
+    width: 60%;
     height: 1000px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-rect {
-    stroke: black;
-    stroke-width: 2px;
-}
-
 .combined {
     fill: #ff8717;
-    
 }
 .michael {
-    fill: #ee0010;
+    fill: #f22727;
 }
-
 .jordan {
     fill: #ffdf00;
 }
