@@ -12,14 +12,20 @@
     	<div id="header">
 			<img id="logo" src="img/fj-logo.webp" alt="Face Jam">
 			<!-- <h1>Face Jam Statistics</h1> -->
-			<input type="checkbox" id='descending' onchange="barchart.updateChart()" autocomplete="off">Descending</input>
+			<select name="Sort By" id="sort-select" onchange="barchart.updateChart()" autocomplete="off">
+				<option value="episode_num" selected>Episode Number</option>
+				<option value="combined">Combined Score</option>
+				<option value="michael">Michael's Score</option>
+				<option value="jordan">Jordan's Score</option>
+			  </select>
+			<input type="checkbox" id='ascending' onchange="barchart.updateChart()" autocomplete="off">Ascending</input>
 		</div>
 		<div id = "chart-wrapper">
 			<svg class = "main"></svg>
-			<div class="tooltip hidden">
-				<h1>Episode</h1> 
-				<h2>Restaurant & Food</h2>
-				<h3>Scores</h3>
+			<div class="tooltip">
+				<h2 id = "tooltip-episode"></h1> 
+				<h2 id = "tooltip-title"></h2>
+				<h3 id = "tooltip-scores"></h3>
 			</div>
 		</div>
 		<script src="js/barChart.js"></script>

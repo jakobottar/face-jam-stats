@@ -58,10 +58,15 @@ class BarChart {
                 that.drawCircles(this.__data__);
                 that.drawTooltip(this)
             })
+            // .on("mousemove", function (d) {
+            //     d3.select('div.tooltip')
+            //         .style("left", (d3.event.pageX + 20) + "px")     
+            //         .style("top", (d3.event.pageY - 20) + "px"); 
+            // })
             .on("mouseout", function (d) {
                 //TODO: Figure out why this isn't working with 'd'
                 that.removeCircles(this.__data__);
-                that.removeTooltip(this)
+                that.removeTooltip(this);
             });
 
         bars.transition()
@@ -72,10 +77,18 @@ class BarChart {
         
     }
 
-    updateChart(key = "episode_num"){
-        let sign = document.getElementById('descending').checked ? 1 : -1;
+    updateChart(){
+        let sign = document.getElementById('ascending').checked ? -1 : 1;
+        let key = document.getElementById('sort-select').value;
 
-        let sortedData = this.data.sort((a, b) => {return sign * b[key] + a[key]});
+        let sortedData;
+        if(key == "episode_num"){
+            sortedData = this.data.sort((a, b) => {return sign*(a[key] - b[key]) });
+        }
+        else{
+            sortedData = this.data.sort((a, b) => {return sign*(a.score[key] - b.score[key]) });
+        }
+        
         let dom = new Array();
         sortedData.forEach(e => { dom.push(e.episode_num) });
 
@@ -149,7 +162,24 @@ class BarChart {
     }
 
     drawTooltip(data){
+        // console.log(`${data.__data__.restaurant} ${data.__data__.food}`)
+        d3.select("div.tooltip")
+            .transition()
+            .duration(200)
+            .style("opacity", 0.9)
 
+        d3.select('#tooltip-episode')
+            .text(`Episode: ${data.__data__.episode}`)
+
+        d3.select('#tooltip-title')
+            .text(`${data.__data__.restaurant} ${data.__data__.food}`)
+
+        d3.select('#tooltip-scores')
+            .text(`Combined: ${data.__data__.score.combined}, Michael: ${data.__data__.score.michael}, Jordan: ${data.__data__.score.jordan}`)
+    }
+
+    moveTooltip(data){
+        
     }
 
     removeCircles(data){
@@ -173,6 +203,9 @@ class BarChart {
     }
 
     removeTooltip(data){
-
+    d3.select("div.tooltip")
+        .transition()
+        .duration(200)
+        .style("opacity", 0)
     }
 }

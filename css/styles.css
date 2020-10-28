@@ -63,11 +63,12 @@ text.jordan {
 
 .tooltip {
     position: absolute;
+    opacity: 0;
 }
 
-.hidden {
+/* .hidden {
     visibility: hidden;
-}
+} */
 
 text {
     fill: white;
