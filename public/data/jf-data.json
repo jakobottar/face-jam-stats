@@ -404,5 +404,20 @@
             },
         "emoji": "🌭",
         "link": "https://roosterteeth.com/watch/face-jam-2020-10-27"
+    },
+    {
+        "episode": "27",
+        "episode_num": 27,
+        "date": "November 10, 2020",
+        "restaurant": "Buffalo Wild Wings",
+        "food": "Pizza Wings",
+        "score":
+            {
+                "jordan": 34,
+                "michael": 56,
+                "combined": 45
+            },
+        "emoji": "🍗",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-11-10"
     }
 ]
