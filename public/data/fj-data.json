@@ -419,5 +419,20 @@
             },
         "emoji": "🍗",
         "link": "https://roosterteeth.com/watch/face-jam-2020-11-10"
+    },
+    {
+        "episode": "28",
+        "episode_num": 28,
+        "date": "November 24, 2020",
+        "restaurant": "Golden Chick",
+        "food": "Cholula Chicken Sandwich & Tenders",
+        "score":
+            {
+                "jordan": 66,
+                "michael": 75,
+                "combined": 70.5
+            },
+        "emoji": "🍗",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-11-24"
     }
 ]
