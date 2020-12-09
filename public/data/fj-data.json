@@ -434,5 +434,20 @@
             },
         "emoji": "🍗",
         "link": "https://roosterteeth.com/watch/face-jam-2020-11-24"
+    },
+    {
+        "episode": "29",
+        "episode_num": 29,
+        "date": "December 8, 2020",
+        "restaurant": "Boston Market",
+        "food": "Tuscan Chicken and Chicken Marsala",
+        "score":
+            {
+                "jordan": 63,
+                "michael": 65,
+                "combined": 64
+            },
+        "emoji": "🍗",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-12-8"
     }
 ]
