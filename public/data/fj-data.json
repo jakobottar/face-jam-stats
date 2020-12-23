@@ -449,5 +449,20 @@
             },
         "emoji": "🍗",
         "link": "https://roosterteeth.com/watch/face-jam-2020-12-8"
+    },
+    {
+        "episode": "30",
+        "episode_num": 30,
+        "date": "December 22, 2020",
+        "restaurant": "Taco Cabana",
+        "food": "Chicken Tinga & Cheese Poblano Torpedos",
+        "score":
+            {
+                "jordan": 49,
+                "michael": 45,
+                "combined": 47.25
+            },
+        "emoji": "🌮",
+        "link": "https://roosterteeth.com/watch/face-jam-2020-12-22"
     }
 ]
