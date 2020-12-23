@@ -10,6 +10,8 @@ class BarChart {
         this.yScale;
     }
 
+    // testing
+
     setData(data){ this.data = data; }
 
     drawChart(){
