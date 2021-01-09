@@ -464,5 +464,20 @@
             },
         "emoji": "🌮",
         "link": "https://roosterteeth.com/watch/face-jam-2020-12-22"
+    },
+    {
+        "episode": "31",
+        "episode_num": 31,
+        "date": "January 5, 2021",
+        "restaurant": "Outback Steakhouse",
+        "food": "Peppercorn Short Rib",
+        "score":
+            {
+                "jordan": 5,
+                "michael": 55,
+                "combined": 30
+            },
+        "emoji": "🍖",
+        "link": "https://roosterteeth.com/watch/face-jam-2021-1-5"
     }
 ]
